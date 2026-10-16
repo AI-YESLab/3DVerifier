@@ -4,7 +4,7 @@
 
 [Shuanglin Li](https://huixingruo.github.io/personal-homepage/), [Jiaying Lin](https://jiaying.link/), and [Shuquan Ye](https://shuquanye.com/)
 
-**[Project Website](https://ai-yeslab.github.io/3DVerifier-page/) · [Manuscript PDF](https://ai-yeslab.github.io/3DVerifier-page/assets/paper.pdf)**
+**[Project Website](https://ai-yeslab.github.io/3DVerifier-page/) · [Paper (arXiv)](https://arxiv.org/abs/2610.22360) · [Benchmark](https://huggingface.co/datasets/AI-YesLab/3DVerifierBench)**
 
 3DVerifier studies whether models can verify explicit requirements against 3D evidence, explain contradictions, and use verification to help improve generated 3D content.
 
@@ -17,8 +17,22 @@
 | Resource | Access |
 | --- | --- |
 | Project page and demonstrations | [Visit the website](https://ai-yeslab.github.io/3DVerifier-page/) |
-| Paper | [Download the manuscript PDF](https://ai-yeslab.github.io/3DVerifier-page/assets/paper.pdf) |
-| Benchmark | Download link forthcoming |
+| Paper | [arXiv:2610.22360](https://arxiv.org/abs/2610.22360) · [PDF](https://arxiv.org/pdf/2610.22360) |
+| Benchmark | [Hugging Face dataset](https://huggingface.co/datasets/AI-YesLab/3DVerifierBench) |
 | Training resource | [Email the authors to request access](mailto:jzgkpl84@gmail.com?subject=3DVerifier%20training%20resource%20request) |
 
-An arXiv link will be added after the manuscript is uploaded. This repository currently contains the project introduction and resource links; research code is not included.
+This repository currently contains the project introduction and resource links; research code is not included.
+
+## Citation
+
+```bibtex
+@misc{li2026groundinggenerativeverification3d,
+  title={Grounding Generative Verification in 3D Content},
+  author={Shuanglin Li and Jiaying Lin and Shuquan Ye},
+  year={2026},
+  eprint={2610.22360},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2610.22360},
+}
+```
